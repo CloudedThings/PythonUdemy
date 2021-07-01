@@ -14,7 +14,7 @@ def parabola(page, size):
 
 
 def circle(page, radius, g, h):
-    page.create_oval(g * radius, h * radius, g - radius, h - radius, outline="red", width=2)
+    page.create_oval(g + radius, h + radius, g - radius, h - radius, outline="red", width=2)
     # for x in range(g * 100, (g + radius) * 100):
     #     x /= 100
     #     print(x)
